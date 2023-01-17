@@ -61,3 +61,9 @@ body {
 }
 
 
+.card-container {
+    @media (max-width: 575px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

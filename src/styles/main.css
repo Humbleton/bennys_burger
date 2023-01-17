@@ -10307,4 +10307,11 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+@media (max-width: 575px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
